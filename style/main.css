@@ -1,0 +1,63 @@
+/*****************************GENERAL*****************************/
+body {
+	font-family: Corbel, Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+/******************************HEADER*****************************/
+ #header {
+ 	background-color: #00e600;
+ }
+ 
+
+h1 {
+	color: white;
+	font-size: 45px; /***DIMENSIONE CARATTERE***/
+	margin: 0;
+	text-align: center;
+	padding: 15px 0 0 0;
+	text-transform: uppercase; /***TRASFORMA TUTTI IL CARATTERE IN MAIUSCOLO***/
+}
+
+h2 {
+	color: white;
+	margin: 0;
+	text-align: center;
+}
+
+#nav {
+	background-color: #00b300;
+	text-align: center;
+	list-style-type: none; /***TOGLIE I PUNTI DALL'ELENCO PUNTATO***/
+}
+
+#nav li {
+	display: inline-block; /***METTE I "NAV" SULLA STESSA RIGA***/
+	padding: 6px 8px 6px 8px;
+}
+
+#nav li a {
+	color: white;
+}
+
+#nav li:hover /***"hover"=passa il mouse***/{  /***QUANDO PASSA IL MOUSE SOPRA AI "NAV" CAMBIANO DI COLORE***/
+	background-color: #00e600; 
+}
+
+/*****************************CONTENT*****************************/
+ 
+#term a {
+	text-decoration: underline;
+}
+
+#content {
+	width: 600px; /***LARGHEZZA DI UN ELEMENTO***/
+	margin: 30px auto;
+}
+
+#content h4 {
+	border-bottom: #00b300 solid 3px;
+}
